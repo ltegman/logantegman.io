@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logan Tegman: Full Stack Javascript Developer</title>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="./index.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="navbar-fixed">
+    <nav class="grey lighten-3" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo black-text"></a>
+        <ul id="nav-mobile section table-of-contents" class="middle">
+          <li><a href="#about" class="black-text">About</a></li>
+          <li><a href="#portfolio" class="black-text">Portfolio</a></li>
+          <li><a href="#contact" class="black-text">Find Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="parallax-container">
+    <div class="section no-pad-bot">
+      <br><br><br>
+      <div class="container">
+        <h1 class="header center indigo-text text-lighten-5">Logan Tegman</h1>
+        <h5 class="header col s12 light center indigo-text text-lighten-5">Full Stack Javascript Developer</h3>
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="img/header.jpg" alt="hero image">
+    </div>
+  </div>
+  <div id="about" class="section scrollspy white">
+    <div class="row container">
+      <h2 class="header">About</h2>
+      <p>
+        I’m a Full Stack Javascript developer from Kirkland, WA.
+        I’ve been programming in some capacity for ~7 years with experience in Java, PHP, C#, and Python.
+        JavaScript is my preferred language because of it’s fast-paced, vibrant community and out-of-the-box support for async and first-class functions.
+        I’m proficient in standards like JQuery as well as modern technologies such as React, Redux, ECMAScript 2015 and build/code quality tools like Gulp and ESLint.
+      </p>
+      <p>
+        In my spare time you’ll find me taking pictures of my cat, drinking tea, and watching Formula 1.
+      </p>
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/gabby-parallax.jpg" alt="cat laying head on laptop">
+    </div>
+  </div>
+  <div id="portfolio" class="section scrollspy white">
+    <div class="row container">
+      <h2 class="header">Portfolio</h2>
+      <div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/thumbnails/twitch.png">
+            </div>
+            <div class="card-content">
+              <p><span class="card-title black-text">Twitch API</span></p>
+              <p>
+                Used the twitch API to create a widget that pulls the status of users
+                into a live filterable list. Uses React and Bootstrap
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="http://codepen.io/ltegman/full/vOdqRY/">DEMO</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/thumbnails/roguelike.png">
+            </div>
+            <div class="card-content">
+              <p><span class="card-title black-text">React Roguelike</span></p>
+              <p>
+                Proof of concept roguelike style game made using React for
+                rendering and Redux for state management, written in ES2015/ES2016 using Babel to transpile.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="http://codepen.io/ltegman/full/obLXKQ/">DEMO</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/thumbnails/pomodoro.png">
+            </div>
+            <div class="card-content">
+              <p><span class="card-title black-text">Pomodoro Timer</span></p>
+              <p>
+                Simple work interval timer built with vanilla Javascript using
+                a library for accurate time keeping and creating a seven segment display.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="http://codepen.io/ltegman/full/NGPvyJ/">DEMO</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-content">
+              <p><span class="card-title black-text">Alpha-Inc</span></p>
+              <p>
+                Tool for incrementing alphanumeric strings in Javascript.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/ltegman/alpha-inc">GITHUB</a>
+              <a href="https://www.npmjs.com/package/alpha-inc">NPM</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-content">
+              <p><span class="card-title black-text">Bitmap Transformer</span></p>
+              <p>
+                Toy CLI project that uses raw NodeJS Buffers to perform color transformations on Bitmap Images.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/ltegman/node-bitmap-color-transform">GITHUB</a>
+              <a href="https://www.npmjs.com/package/bmp-transform">NPM</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-content">
+              <p><span class="card-title black-text">HTTP Framework</span></p>
+              <p>
+                Simple HTTP server/router framework with a middleware pipeline.
+                Built as a learning experience.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/Real-Fast-Server/real-fast-server-framework">GITHUB</a>
+              <a href="https://www.npmjs.com/package/real-fast-server">NPM</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="img/tea-parallax.jpg" alt="tea"></div>
+  </div>
+  <div id="contact" class="section scrollspy white">
+    <div class="row container">
+      <h2 class="header">Find Me</h2>
+      <p>You can reach me on the following platforms:</p>
+      <p>
+        <a href="https://github.com/ltegman" class="waves-effect waves-light btn-large">Github <i class="fa fa-github left"></i></a>
+        <a href="http://codepen.io/ltegman/" class="waves-effect waves-light btn-large">Codepen <i class="fa fa-codepen left"></i></a>
+        <a href="mailto:ltegman@gmail.com" class="waves-effect waves-light btn-large">Email <i class="fa fa-envelope left"></i></a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>

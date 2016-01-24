@@ -1,0 +1,7 @@
+nav div ul li a.active {
+  background-color: #e0e0e0 !important;
+}
+
+.parallax-container {
+  height: 400px !important;
+}

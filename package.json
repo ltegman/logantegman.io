@@ -1,0 +1,21 @@
+{
+  "name": "logantegman.io",
+  "version": "0.0.0",
+  "description": "Portfolio page for Full Stack Javascript developer, Logan Tegman",
+  "main": "server.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "eslint": "^1.10.3",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1"
+  },
+  "dependencies": {
+    "koa": "^1.1.2"
+  }
+}
