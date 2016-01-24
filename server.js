@@ -5,4 +5,4 @@ const app = koa();
 
 app.use(require('koa-static')(__dirname + '/public'));
 
-app.listen(3000);
+app.listen(80);
