@@ -5,3 +5,14 @@ nav div ul li a.active {
 .parallax-container {
   height: 400px !important;
 }
+
+.social-button {
+  display: inline-block;
+  margin: 5px 0;
+}
+
+@media (min-width: 0) {
+  .social-button {
+    width: 100%;
+  }
+}
